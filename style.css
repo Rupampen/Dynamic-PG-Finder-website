@@ -1,0 +1,188 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+
+
+header.masthead { 
+    position: relative;
+    background:url(building2.jpg);
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+} 
+
+.masthead h2{
+    text-shadow: 2px 2px black; 
+    background-color: white;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 1px rgb(rgb(27, 6, 6), green, blue);       
+}
+
+.Featured_Properties{
+    margin-top: 60px;
+    font-size: 35px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;        
+}
+
+.masthead .container .row{
+    margin-top: 14%;
+    margin-bottom: 14%;
+}
+
+h1 {
+    color: white;
+    margin-top: 80px;
+    font-size: 3.5rem; 
+    text-shadow: 3px 3px black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: 13px
+}
+
+h2,h4{
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+/* .card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit:cover;
+}  */
+
+/* ---------------------------------------------------------- */
+/* RESPONSIVE CSS */
+/* ---------------------------------------------------------- */
+
+
+/* For iphone 5 Potrait and Landscape view */
+@media screen and (max-device-width: 320px) 
+      and (-Webkit-min-device-pixel-ratio: 2) {
+    .UniversityName {
+           font-size: 30px;
+             
+       }
+    h2 {
+            font-size: 15px;
+       }
+
+     h4{
+           font-size: 15px;
+       }      
+}
+
+/* For mobile phones Potrait or Landscape view */
+@media screen and (min-device-width:320px) and (max-device-width: 640px) {
+    .UniversityName {
+           font-size: 50px;
+       }
+    h2 {
+            font-size: 18px;
+       }
+
+     h4{
+           font-size: 18px;
+       }      
+}
+
+/* For Mobile Landscape view */
+@media  screen and (max-device-width: 640px) and (orientation: landscape){
+
+    .UniversityName {
+        font-size: 30px;
+       }
+    h2 {
+         font-size: 13px;
+       }
+
+    h4 {
+        font-size: 13px;
+       }
+}
+
+/* For Mobile Portrait view */
+@media  screen and (max-device-width: 480px) and (orientation: portrait){
+
+    .UniversityName {
+        font-size: 50px;
+       }
+    h2 {
+         font-size: 13px;
+       }
+
+    h4 {
+        font-size: 13px;
+       }
+}
+
+/* For Tablet View */
+@media  screen and (min-device-width: 768px) and (max-device-width: 1924px){
+  
+    .UniversityName {
+        font-size: 40px;
+       }
+    h2 {
+         font-size: 18px;
+       }
+
+    h4 {
+        font-size: 18px;
+       }
+}
+
+/* For Desktop View */
+@media  screen and (min-device-width: 1024px){
+    .UniversityName {
+        font-size: 50px;
+       }
+    h2 {
+         font-size: 20px;
+       }
+
+    h4 {
+        font-size: 20px;
+       }
+}
+
+/* ---------------------------------------------------------------- */
+                     /* CARDS RESPONSIVE */
+/* ---------------------------------------------------------------- */
+
+/* Equal-height card images, cf. https://stackoverflow.com/a/47698201/1375163*/
+.card-img-top {
+    width: 100%;
+    height: 90vw;
+    object-fit: cover;
+}
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .card-img-top {
+        height: 50vw;
+    }
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .card-img-top {
+        height: 25vw;
+    }
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 90vw;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .card-img-top {
+        height: 15vw;
+    }
+  }
